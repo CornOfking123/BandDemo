@@ -1,0 +1,60 @@
+@media (max-width: 739px) {
+  #header {
+    overflow: hidden;
+  }
+  #nav .subnav {
+    position: initial;
+    background-color: #333;
+  }
+  #nav .subnav a {
+    color: #fff;
+    padding: 5px 41px;
+  }
+  .search-btn {
+    display: none;
+  }
+  #nav > li {
+    display: block;
+  }
+  #nav > li:first-child {
+    display: inline-block;
+  }
+  #nav {
+    display: block;
+  }
+  #nav li a {
+    display: block;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .member-list {
+    display: block;
+    float: none;
+  }
+  .member-item {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+  }
+  .member-img {
+    width: 60%;
+  }
+  .place-item {
+    width: 100%;
+    padding: 8px;
+  }
+  .s-col-full {
+    width: 100%;
+  }
+  .contact-info {
+    padding: 16px 0;
+  }
+  .mt-8 {
+    margin-top: 8px;
+  }
+  .btn {
+    width: 100% !important;
+    text-align: center;
+  }
+}
